@@ -2,97 +2,118 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <title>Home</title>
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#Projects">My Projects</a></li>
-        <li><a hre="#Blog"></a>Blog</li>
-        <li><a href="#Contact">Contact me</a></li>
-      </ul>
-    </nav>
-    <h1>Welcome to my Portfolio</h1>
-    <p>Hello! I am Pujan Patel, an aspired undergrad student with a passion for software development. Growing up in India, 
-    i had a dream to make my family financially stable. Here I am in the United States, pursuing what i want to and what i do the best.</p>
-  </header>
-
-  <section class="education-experience">
-    <div class="education">
-      <h2>Education</h2>
-      <ul>
-        <li><h4>2020-2024</h4></li>
-        <ul>
-            <li><strong>Undergraduate:</strong>CUNY Baruch College / Macaulay Honors College <em>(New York, NY)</em></li>
-            <li><strong>Major:</strong> Computer Information Systems </li>
-            <li><strong>Minor:</strong> Interdisciplinary Studies of NYC and Cybersecurity and Info Assurance.</li>
-        </ul>
-        <li><h4>2017-2020</h4></li>
-        <ul>
-            <li><strong>High School: </strong>Herricks High School <em>(New Hyde Park, NY)</em></li>
-            <li><strong>Awards:</strong></li>
-            <ul>
-                <li>Regents Diploma with Advanced Designation with Honors</li>
-                <li>National Honors Society</li>
-                <li>Student of the Month for Art and Mathematics</li>
-                <li>Honor Roll</li>
-            </ul> 
-        </ul>
-        <li><h4>2008-2017</h4></li>
-        <ul>
-            <li><strong>Elementary and Middle School and 9th grade:</strong> Shree Vallabh Ashram MGM Amin and VN Savani School <em>(Killa Pardi, Gujarat, India)</em></li>
-            <ul>
-                <li>Boarding School for Men and co-ed during the school hours with local students</li>
-                <li>Awards: Best Academic Student from 2nd - 9th grade</li>
-                <li>Leadership: Class Monitor, Captain of Blue House </li>
-            </ul>
-        </ul>
-      </ul>
-    </div>
-    <div class="experience">
-      <h2>Professional Experience</h2>
-      <p>Your Professional Experience Details.</p>
-    </div>
-  </section>
-
-  <section class="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <div class="project-description">
-        <h3>Project 1 Title</h3>
-        <p>Description of Project 1.</p>
+    <!--begin navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Pujan Patel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-underline ms-auto">
+            <a class="nav-link active" aria-current="page" href="#top">Home</a>
+            <a class="nav-link" href="#about">About me</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#footer">Contact Me</a>
+          </div>
+        </div>
       </div>
-      <img src="project1.jpg" alt="Project 1">
-    </div>
-    <!-- Add more project entries here -->
-  </section>
-
-  <section class="skills">
-    <h2>Relevant Skills</h2>
-    <ul>
-      <li>Skill 1</li>
-      <li>Skill 2</li>
-      <li>Skill 3</li>
-      <!-- Add more skills here -->
-    </ul>
-  </section>
-
-  <section class="links">
-    <h2>Recommended Links</h2>
-    <ul>
-      <li><a href="#">Technology Resource</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Website</a></li>
-      <!-- Add more links here -->
-    </ul>
-  </section>
-
-  <section class="image">
-    <img src="profile-image.jpg" alt="Your Image">
-  </section>
+    </nav>
+    <!--end navbar-->
+    <div id="wrapper">
+      <main>
+        <section id="intro">
+          <h1>Hi, I'm Pujan Patel</h1>
+          <h2>Student, aspiring software engineer and web developer.</h2>
+        </section>
+        <section id = "about">
+          <h2>Get to know me</h2>
+          <p>
+          Hi, I am Pujan Patel and I'm an enthusiastic web-developer with a passion for creating engaging and secured software.
+          I'm an undergraduate student at CUNY Baruch College via Macaulay Honors College with an intended major in Computer
+          Information Systems. I aspire towards a career in Tech which will allow me to showcase my creativity and problem solving skills. <br>
+          My other interests include: watch and play sports: Soccer, Cricket, Football, Volleyball, Ping-Pong, Ultimate frisbee, and basketball, watching TV-shows and movies, hanging out with friends.
+          </p>
+          <h2>Skills</h2>
+          <ul id="skills">
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>Linux Command Line</li>
+            <li>Numpy</li>
+            <li>Pandas</li>
+            <li>React.Js</li>
+            <li>Boostrap</li>
+            <li>NIST CSF</li>
+            <li>Github</li>
+            <li>Jupyter Notebook</li>
+            <li>VS Code</li>
+            <li>Xcode</li>
+          </ul>
+        </section>
+      <!--Grid for projects-->
+        <section>
+          <div id="projects" class="container text-center">
+          <h2>Projects</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <p>Broadway Next</p>
+              <img src="images/broadway.png" alt="Image of Broadway-Next Website" class="img-fluid rounded">
+              <p>A web-app with a purpose of allowing users to browse, search, and purchase tickets for live shows. It was a collaborated
+               project created for our Hackathon at CUNY Tech Prep. The app was developed using Next.Js, MongoDB, Tailwind CSS, nextAuth,
+               hosted on Vercel and version control via GitHub.</p>
+            </div>
+            <div class="col-md-6">
+              <p>HipeLife</p>
+              <img src="images/hipe.png" alt="Image of HipeLife website" class="img-fluid rounded">
+              <p>A front-end only website that represent a discussion page with a main focus civic engagement. The website was created using
+               HTML, CSS, and JavaScript with version control on GitHub and deployed using GitHub pages.</p>
+            </div>
+          </div>
+          </div>
+        </section>
+        <!--Grid for experience-->
+        <section>
+          <div id="experience" class="container text-center">
+          <h2>Relevant Work Experience</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img>
+              <p>CUNY Tech Prep,<em> Software Development Fellow</em></p>
+              <p>Selected for a competitive web development fellowship with students from across the 11 CUNY senior colleges where Fellows
+               create technical projects using tools such as React, Node + Express, and PostgreSQL. </p>
+            </div>
+            <div class="col-md-6">
+              <img>
+              <p>Grove School of Engineering at CCNY, <em>Front-End Developent Intern</em></p>
+              <p>
+              Designed and developed a website focused on civic-engagement using HTML, CSS, and JavaScript that fosters meaningful 
+              conversations and community involvement using discussions, while aligning its goals with HipeNetwork's mission. 
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      Copyright &copy; 2023 All rights reserved <br>
+      <a href="mailto:pujan.patel2002@gmail.com">Contact Me</a>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
